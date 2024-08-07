@@ -27,4 +27,7 @@ git add src				// all folders and files under src
 
 git commit -m "version1" 	// commit with message version1
 
+git commit -m "version1" --amend 	// commit as one before with amend
+
+git reset .			// get out from staging aera
 git log
