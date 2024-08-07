@@ -49,3 +49,6 @@ alias
 git config --global alias.s "status"
 git config --global alias.cm "commit -m"
 git config --global alias.co "checkout"
+
+rmove all git from project
+rm -rf .git
