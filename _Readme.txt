@@ -50,5 +50,11 @@ git config --global alias.s "status"
 git config --global alias.cm "commit -m"
 git config --global alias.co "checkout"
 
-rmove all git from project
+remove all git from project
 rm -rf .git
+
+git remote -v
+git remote add origin https://github.com/chen-klaus/_Tutorial.git 
+
+git remote remove origin
+git remote add origin
